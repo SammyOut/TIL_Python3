@@ -12,24 +12,24 @@ listA = [1, 2, 3, 4, 5]
 listA.append(6)
 listA.append(7)
 listA.append(8)
-print(listA)
+print("listA: {0}".format(listA))
 
 # 리스트 끝이 아닌 중간에 값을 추가하고 싶다면 insert() 메소드를 사용하면 된다.
 # list.insert(index, value) 처럼 사용하면 된다.
 listA.insert(0, 0)
 listA.insert(2, 33)
-print(listA)
+print("After insert listA: {0}".format(listA))
 
 # 리스트에서 인덱싱이란 것으로 그 배열 내의 원하는 값을 사용할 수 있다.
 # 리스트 인덱싱은 리스트 이름 옆 대괄호에 인덱스를 넣으면 된다. (주의! 인덱스는 0부터 시작한다.)
-print('list[2]: {0}, list[4]: {1}'.format(listA[2], listA[4]))
+print("list[2]: {0}, list[4]: {1}".format(listA[2], listA[4]))
 
 # 파이썬에서 리스트는 슬라이싱이라는 것을 할 수 있다.
 # 리스트 슬라이싱은 그 리스트의 n번째 값 부터 m번째 값까지의 리스트를 만드는 것이다.
 # listB = listA[n:m] 처럼 사용하면 listB에는 listA의 n번 인덱스 부터 m-1의 인덱스까지의 값이 들어간 리스트가 들어간다.
 listB = listA[0:4]
-print(listB)
+print("listB: {0}".format(listB))
 
 # 리스트의 길이를 알기 위해서는 len() 함수를 사용하면 된다.
-print(len(listA))
-print(len(listB))
+print("len(listA): {0}".format(len(listA)))
+print("len(listB): {0}".format(len(listB)))
