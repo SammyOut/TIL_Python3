@@ -29,3 +29,7 @@ print('list[2]: {0}, list[4]: {1}'.format(listA[2], listA[4]))
 # listB = listA[n:m] 처럼 사용하면 listB에는 listA의 n번 인덱스 부터 m-1의 인덱스까지의 값이 들어간 리스트가 들어간다.
 listB = listA[0:4]
 print(listB)
+
+# 리스트의 길이를 알기 위해서는 len() 함수를 사용하면 된다.
+print(len(listA))
+print(len(listB))
