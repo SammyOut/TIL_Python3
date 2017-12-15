@@ -12,14 +12,14 @@ c = "Hello World!"
 
 print("Variable a Type: {0}, Value: {1}".format(type(a), a))
 print("Variable b Type: {0}, Value: {1}".format(type(b), b))
-print("Variable c Type: {0}, Value: {1}".format(type(c), c))
+print("Variable c Type: {0}, Value: {1}\n".format(type(c), c))
 
 # 파이썬의 변수는 모두 참조 타입이다. 그래서 변수의 값을 변경하면 변수 안의 값이 변하는게 아니라 변수가 가리키는 것이 바뀐다.
 # 파이썬의 id()함수를 사용하면 변수의 주소를 알 수 있다.
 a = 3600
 print("Variable a Id: {0}, Value: {1}".format(id(a), a))
 a = 3601
-print("Variable a Id: {0}, Value: {1}".format(id(a), a))
+print("Variable a Id: {0}, Value: {1}\n".format(id(a), a))
 
 # 값이 같은 두 변수 두 쌍을 선언해보자
 a = 10
