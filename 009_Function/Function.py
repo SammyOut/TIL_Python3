@@ -25,8 +25,8 @@ def func(a, b):
     print(b)
     return a+b
 
-result = func(5, 10)
+result = func(5, 10)    # result = 15
 print(result)
 
-result = func(10, 15)
+result = func(10, 15)   # result = 25
 print(result)
