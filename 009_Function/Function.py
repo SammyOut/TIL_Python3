@@ -1,4 +1,4 @@
-# 함수를 간단하게 설명하면 x라는 값을 넣으면 y라는 값이 나오는 상자 라고 설명할 수 있다.
+# 함수를 간단하게 설명하면 x라는 값을 넣으면 y라는 값이 나오거나 특정 행동이 실행되는 상자 라고 설명할 수 있다.
 # 파이썬에서 함수는 def 로 정의를 할 수 있다.
 # 아래와 같이 함수를 정의하고 함수를 호출하면 함수 안에 있는 내용이 실행된다.
 
@@ -25,8 +25,8 @@ def func(a, b):
     print(b)
     return a+b
 
-result = func(5, 10)    # result = 15
+result = func(5, 10)
 print(result)
 
-result = func(10, 15)   # result = 25
+result = func(10, 15)
 print(result)
